@@ -1,0 +1,14 @@
+귀담아 모바일 시험판 제3자 구성 요소
+
+@huggingface/transformers 3.8.1 (Apache-2.0)
+https://github.com/huggingface/transformers.js
+License: LICENSE-transformers.txt
+
+ONNX Runtime Web 1.22.0-dev.20250409-89f8206ba4 및 ONNX Runtime Common (MIT)
+https://github.com/microsoft/onnxruntime
+License: LICENSE-onnxruntime.txt
+
+한국어 기기 내 전사 모델은 첫 준비 때 Hugging Face의 onnx-community/whisper-tiny에서 사용자의 기기로 내려받습니다.
+https://huggingface.co/onnx-community/whisper-tiny
+
+위 JavaScript 번들 일부는 jsDelivr의 공개 패키지를 받아 로컬 경로로 연결하도록 수정했습니다. 앱은 음성 내용을 외부 전사 API로 보내지 않습니다.
